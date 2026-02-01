@@ -1,0 +1,44 @@
+body {
+    background: #ffd6e8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.emoji {
+    font-size: 60px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.yes {
+    background: hotpink;
+    color: white;
+}
+
+.no {
+    background: lightgray;
+    position: relative;
+}
